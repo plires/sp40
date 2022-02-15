@@ -194,6 +194,12 @@ footer {
 
 @media (min-width: 992px) {
 
+  /* Home */
+  .home img {
+    max-width: 65%;
+  }
+  /* Home end */
+
   /* Header */
   header #hamburger {
     display: none;
@@ -252,6 +258,12 @@ footer {
 }
 
 @media (min-width: 1400px) {
+
+  /* Home */
+  .home img {
+    max-width: 100%;
+  }
+  /* Home end */
 
 }
 

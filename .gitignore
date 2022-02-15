@@ -1,6 +1,7 @@
 /node_modules
 /.phpintel
 /vendor
+/documentos
 /img
 /includes/config.inc.php
 npm-debug.log
