@@ -28,19 +28,16 @@
   <!-- Header -->
   <?php include('includes/header.php'); ?>
 
-  <!-- Section Home -->
-  <section class="home">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1 class="text-white mb-5">LAUNCHING 2022</h1>
-          <img class="img-fluid" src="./img/logo-large-sp40.png" alt="logo sp40 large">
-          <h2 class="text-white mt-5">Inspired by American muscle and European design</h2>
-        </div>
+  <section class="container-fluid">
+
+    <!-- Slide -->
+    <div class="row">
+      <div class="col-md-12">
+        Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Velit officia repellendus accusamus deserunt tempora adipisci quae, commodi, earum architecto sed ad ipsa saepe voluptatem fugit consequuntur necessitatibus beatae? Repellendus, ut?
       </div>
     </div>
+    <!-- Slide end -->
   </section>
-  <!-- Section Home end -->
 
   <!-- Footer -->
   <?php include('includes/footer.php'); ?>

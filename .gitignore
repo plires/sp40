@@ -1,6 +1,7 @@
 /node_modules
 /.phpintel
 /vendor
+/fonts
 /documentos
 /img
 /includes/config.inc.php

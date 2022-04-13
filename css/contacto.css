@@ -1,0 +1,52 @@
+/* Modal Contacto */
+.modal-content {
+  box-shadow: 0px 0px 7px 0px rgba(255,255,255,0.75);
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(255,255,255,0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(255,255,255,0.75);
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  border: none;
+  background: #282828;
+  color: white;
+}
+
+.modal-header .btn-close {
+  color: white!important;
+  cursor: pointer;
+}
+
+#contactModal .alert-danger {
+  font-size: 0.85rem;
+  background-color: red;
+  color: white;
+}
+/* Modal Contacto end */
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+
+
