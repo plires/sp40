@@ -382,10 +382,14 @@
     <section class="container-fluid lauch">
       <div class="row">
 
-        <div class="col-md-12">
+        <div class="col-md-12 content">
           <img src="./img/logo-sp40-large.png" class="img-fluid" alt="logo sp40 large">
-          <h2>LAUNCHING 2022</h2>
-          <button class="btn btn-primary">JOIN THE WAITING LIST</button>
+          <h2 class="arimo">LAUNCHING 2022</h2>
+          <button 
+            data-bs-toggle="modal" 
+            data-bs-target="#contactModal" 
+            class="btn btn-primary arimo transition">JOIN THE WAITING LIST
+          </button>
         </div>
 
       </div>

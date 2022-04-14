@@ -279,6 +279,54 @@
 }
 /* Team end */
 
+/* Launch */
+.lauch {
+  margin-bottom: 30px;
+  position: relative;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-position: 50% 50%!important;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url('../img/background.jpg');
+}
+
+.lauch .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lauch .content img {
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+
+.lauch .content h2 {
+  font-size: 1.15rem;
+  color: #a4a5ab;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+}
+
+.lauch .content button {
+  border-radius: 0;
+  background: #5f6f66!important;
+  border: none!important;
+  color: white!important;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.lauch .content button:hover {
+  background: white!important;
+  color: #5f6f66!important;
+}
+/* Launch end */
 
 
 /* MEDIA QUERIES */
@@ -308,6 +356,17 @@
     width: 30%;
   }
   /* Team end */
+
+  /* Launch */
+  .lauch .content img {
+    max-width: 300px;
+  }
+
+  .lauch .content h2 {
+    margin-bottom: 60px;
+    letter-spacing: 0.6rem;
+  }
+  /* Launch end */
 
 }
 
@@ -385,6 +444,20 @@
     display: none;
   }
   /* Team end */
+
+  /* Launch */
+  .lauch .content img {
+    max-width: 400px;
+  }
+
+  .lauch .content h2 {
+    letter-spacing: 0.9rem;
+  }
+
+  .lauch .content button {
+    font-size: 1rem;
+  }
+  /* Launch end */
 
 }
 
@@ -476,6 +549,24 @@
   }
   /* About end */
 
+  /* Launch */
+  .lauch {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .lauch .content img {
+    max-width: 550px;
+    margin-bottom: 30px;
+  }
+
+  .lauch .content h2 {
+    font-size: 1.25rem;
+    letter-spacing: 1.6rem;
+    margin-bottom: 100px;
+  }
+  /* Launch end */
+
 }
 
 @media (min-width: 1200px) {
@@ -548,6 +639,23 @@
     font-size: 1rem;
   }
   /* Team end */
+
+  /* Launch */
+  .lauch .content img {
+    max-width: 700px;
+  }
+
+  .lauch .content h2 {
+    font-size: 1.5rem;
+    letter-spacing: 2.3rem;
+    margin-bottom: 150px;
+  }
+
+  .lauch .content button {
+    font-size: 1.25rem;
+    padding: 10px 40px;
+  }
+  /* Launch end */
 
 }
 
@@ -626,6 +734,22 @@
     width: 35%;
   }
   /* Team end */
+
+  /* Launch */
+  .lauch .content img {
+    max-width: 860px;
+    margin-bottom: 30px;
+  }
+
+  .lauch .content h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2.3rem;
+  }
+
+  .lauch .content button {
+    font-size: 1.5rem;
+  }
+  /* Launch end */
 
 }
 

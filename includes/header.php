@@ -10,8 +10,12 @@
     <a class="transition" href="<?= RRSS_INSTAGRAM ?>" target="_blank" rel="noopener noreferrer">
       <i class="transition fab fa-instagram"></i>
     </a>
-    <a class="transition mail" href="mailto:<?= EMAIL_CLIENT ?>" target="_blank" rel="noopener noreferrer">
-      <i class="transition fa-regular fa-envelope"></i>
+    <a 
+      href="#" 
+      class="transition mail" 
+      data-bs-toggle="modal" 
+      data-bs-target="#contactModal">
+        <i class="transition fa-regular fa-envelope"></i>
     </a>
   </div>
 
@@ -30,8 +34,12 @@
           <a class="transition" href="<?= RRSS_INSTAGRAM ?>" target="_blank" rel="noopener noreferrer">
             <i class="transition fa-brands fa-instagram"></i>
           </a>
-          <a class="transition" href="mailto:<?= EMAIL_CLIENT ?>" target="_blank" rel="noopener noreferrer">
-            <i class="transition fa-regular fa-envelope"></i>
+          <a 
+            class="transition" 
+            href="#" 
+            data-bs-toggle="modal" 
+            data-bs-target="#contactModal">
+              <i class="transition fa-regular fa-envelope"></i>
           </a>
         </div>
       </li>
