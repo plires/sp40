@@ -110,56 +110,56 @@
     <!-- Presentation -->
     <section class="container-fluid presentation">
       <div class="row">
-        <div class="col-md-5 offset-md-1">
-          <img src="./img/presentation-logo.jpg" class="img-fluid" alt="logo concept sp40">
-          <h3>We love classic cars. </h3>
-          <p>
-            Everything about them, the curves, the design, the feeling of riding history, but something was missing. So we created the SP40 Restomod, a unique car that combines the best of both worlds.
-            Modern technology and the elegance of a classic.
-          </p>
 
-          <h4>How did we do this?</h4>
-          <p>
-            Inspired by our award winning Ford 40 Special Speedster 
-            we designed a powerful, attractive and functional car.
-            We take the lines and design of the original model and develop 
-            it from scratch together with the best technologies in 
-            motorization, electronics, chassis and body construction.
-          </p>
+        <div class="col-lg-5 offset-lg-1 data">
+          <img class="img-fluid logo" src="./img/presentation-logo.jpg" alt="logo concept sp40">
+          
+          <div>
+            <h3>We love classic cars.</h3>
+            <p>
+              Everything about them, the curves, the design, the feeling of riding history, but something was missing. So we created the SP40 Restomod, a unique car that combines the best of both worlds.
+              Modern technology and the elegance of a classic.
+            </p>
 
-          <div class="row">
-            <div class="col-md-6">
-              <div class="progress">
-                <div class="up">
-                  <h5>classic</h5>
-                  <h5>100%</h5>
-                </div>
-                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <h4>How did we do this?</h4>
+            <p>
+              Inspired by our award winning Ford 40 Special Speedster 
+              we designed a powerful, attractive and functional car.
+              We take the lines and design of the original model and develop 
+              it from scratch together with the best technologies in 
+              motorization, electronics, chassis and body construction.
+            </p>
+          </div>
 
-              <div class="progress">
-                <div class="up">
-                  <h5>classic</h5>
-                  <h5>100%</h5>
-                </div>
-                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-
-              <div class="progress">
-                <div class="up">
-                  <h5>classic</h5>
-                  <h5>100%</h5>
-                </div>
-                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              
-            </div>    
+          <div class="barra first">
+            <div class="up">
+              <h5>classic</h5>
+              <h5>100%</h5>
             </div>
+            <div class="complete"></div>
           </div>
 
-          <div class="col-md-5">
-            <img src="./img/presentation.jpg" class="img-fluid" alt="presentation sp40">
+          <div class="barra">
+            <div class="up">
+              <h5>modern</h5>
+              <h5>100%</h5>
+            </div>
+            <div class="complete"></div>
           </div>
+
+          <div class="barra">
+            <div class="up">
+              <h5>carbon fiber body</h5>
+              <h5>100%</h5>
+            </div>
+            <div class="complete"></div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 img">
+          <img src="./img/presentation.jpg" class="img-fluid" alt="presentation sp40">
+        </div>
           
       </div>
     </section>

@@ -5,6 +5,7 @@ html, body { /* Para corregir el desbordamiento que causo la libreria AOS.js */
 body {
 	font-family: 'Bitter', serif;
   position: relative;
+  color: #444444;
 }
 
 .bitter {
@@ -114,7 +115,7 @@ header .mail {
 
 header nav {
   position: absolute;
-  background: #525252;
+  background: #333333;
   width: 100%;
   height: 100vh;
   top: 0;
