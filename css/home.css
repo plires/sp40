@@ -175,7 +175,7 @@
 
 /* About */
 .about {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   background: #e3e3e3;
 }
 
@@ -224,6 +224,61 @@
 }
 /* About end */
 
+/* Team */
+.team {
+  margin-bottom: 30px;
+}
+
+.team h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  color: #444242;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.team h2:before,
+.team h2:after {
+  content: '';
+  height: 1px;
+  width: 10%;
+  background: #babbbf;
+  margin-right: 15px;
+}
+
+.team h2:after {
+  margin-left: 15px;
+}
+
+.team .content_team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team .content_team img {
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.team .content_team h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.team .content_team p {
+  font-size: 0.9rem;
+  color: #5b5b5f;
+}
+/* Team end */
+
 
 
 /* MEDIA QUERIES */
@@ -246,6 +301,13 @@
     letter-spacing: 0.27em;
   }
   /* Slide Home end */
+
+  /* Team */
+  .team h2:before,
+  .team h2:after {
+    width: 30%;
+  }
+  /* Team end */
 
 }
 
@@ -305,6 +367,24 @@
     height: 100%;
   }
   /* Gallery end */
+
+  /* Team */
+  .team h2 {
+    margin-bottom: 40px;
+  }
+
+  .team .content_team {
+    justify-content: flex-start;
+  }
+
+  .team .content_team h3 {
+    font-size: 1.25rem;
+  }
+
+  .team .content_team p br {
+    display: none;
+  }
+  /* Team end */
 
 }
 
@@ -450,6 +530,25 @@
   }
   /* About end */
 
+  /* Team */
+  .team h2 {
+    font-size: 2.5rem;
+  }
+
+  .team h2:before,
+  .team h2:after {
+    width: 30%;
+  }
+
+  .team .content_team h3 {
+    font-size: 1.5rem;
+  }
+
+  .team p {
+    font-size: 1rem;
+  }
+  /* Team end */
+
 }
 
 @media (min-width: 1400px) {
@@ -516,6 +615,17 @@
     margin-bottom: 100px;
   }
   /* About end */
+
+  /* Team */
+  .team {
+    margin-bottom: 100px;
+  }
+
+  .team h2:before,
+  .team h2:after {
+    width: 35%;
+  }
+  /* Team end */
 
 }
 

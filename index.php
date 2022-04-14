@@ -345,23 +345,32 @@
       <div class="row">
 
         <div class="col-md-10 offset-md-1">
-          <h2>the team</h2>
+          <h2 class="arimo">the team</h2>
+        </div>
 
+        <div class="col-md-8 offset-md-2">
           <div class="row">
-            <div class="col-md-8 offset-md-2">
-              <div class="row">
-                <div class="col-md-4">
-                  <img src="./img/team-1.jpg" class="img-fluid" alt="team 1 sp40">
-                </div>
-                <div class="col-md-4">
-                  <img src="./img/team-2.jpg" class="img-fluid" alt="team 2 sp40">
-                </div>
-                <div class="col-md-4">
-                  <img src="./img/team-3.jpg" class="img-fluid" alt="team 3 sp40">
-                </div>
-              </div>
+
+            <div class="col-md-4 content_team">
+              <img src="./img/team-1.jpg" class="img-fluid" alt="team 1 sp40">
+              <h3 class="arimo">pedro<br>campo</h3>
+              <p>Automotive designer and specialist <br>in competition aerodynamics.</p>
             </div>
+
+            <div class="col-md-4 content_team">
+              <img src="./img/team-2.jpg" class="img-fluid" alt="team 2 sp40">
+              <h3 class="arimo">francisco<br>orden</h3>
+              <p>Founder - Iconic Auto Sports</p>
+            </div>
+
+            <div class="col-md-4 content_team">
+              <img src="./img/team-3.jpg" class="img-fluid" alt="team 3 sp40">
+              <h3 class="arimo">Arturo<br>Arrebillaga</h3>
+              <p>Founder - Iconic Auto Sports</p>
+            </div>
+
           </div>
+        </div>
 
         </div>
 
