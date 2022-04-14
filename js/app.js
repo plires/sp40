@@ -1,3 +1,4 @@
+const header = document.getElementsByTagName("header")[0]
 const toggle = document.getElementById('hamburger')
 const menu = document.getElementById('menu')
 
@@ -22,6 +23,24 @@ function menuToggle() {
 
 toggle.addEventListener('click', function(){
 	menuToggle()
+});
+
+function showlHeader() {
+  header.classList.add('header_small')
+}
+
+function hidelHeader() {
+  header.classList.remove('header_small')
+}
+
+window.addEventListener('scroll', function() {
+
+  if ( window.scrollY > 100) {
+    showlHeader()
+  } else {
+    hidelHeader()
+  }
+
 });
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields

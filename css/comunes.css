@@ -7,6 +7,14 @@ body {
   position: relative;
 }
 
+.bitter {
+  font-family: 'Bitter', serif;
+}
+
+.arimo {
+  font-family: 'Arimo', sans-serif;
+}
+
 a {
 	text-decoration: none;
 }
@@ -64,25 +72,39 @@ button,
 
 /* Header */
 header {
+  z-index: 2;
   position: fixed;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 10%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 10%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 10%,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   height: 80px;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-  background: red;
   width: 100%;
   color: white;
-  padding: 12px;
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+header a,
+header i {
+  color: white;
+  font-size: 1.75rem;
+}
+
+header .content_logo {
+  z-index: 4;
+  text-align: center;
+}
+
 header #hamburger {
   z-index: 4;
-  font-size: 2rem;
   cursor: pointer;
+}
+
+header .mail {
+  display: none;
 }
 
 header nav {
@@ -91,32 +113,95 @@ header nav {
   width: 100%;
   height: 100vh;
   top: 0;
-  left: 0;
+  left: -100%;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  transform: scale(0);
+  text-align: left;
   transition: 0.5s;
   z-index: 3;
 }
 
 header nav.active {
-  transform: scale(1);
+  left: 0;
+}
+
+header nav ul {
+  width: 100%;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+header nav ul li {
+  border-bottom: solid 1px #727176;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header nav ul li:first-child {
+  padding-top: 0;
+}
+
+header nav ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 header nav a {
-  color: white;
-  font-size: 2rem;
+  color: #babbbf;
+  font-size: 1.25rem;
+  text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
-header nav a:hover {
-  color: #bbbbbb;
+header nav i {
+  color: #babbbb;
+  font-size: 1.5rem;
 }
+
+header nav a:hover,
+header i:hover {
+  color: white;
+}
+
+header nav .logo_menu {
+  margin-bottom: 10px;
+  max-width: 160px;
+}
+
+header nav .icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+header nav .icons a {
+  margin-right: 30px;
+}
+
+header nav .icons a:last-child {
+  margin-right: 0;
+}
+
 /* Header end */
+
+/* Header Small */
+header.header_small {
+  height: 60px;
+}
+
+header.header_small a,
+header.header_small i {
+  font-size: 1.5rem!important;
+}
+
+header.header_small .logo {
+  max-width: 75%;
+}
+/* Header Small end */
 
 /* Footer */
 
@@ -130,44 +215,24 @@ header nav a:hover {
 
 @media (min-width: 768px) {
 
+  /* Header */
+  header .mail {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  /* Header end */
+
 }
 
 @media (min-width: 992px) {
 
   /* Header */
   header nav {
-    background: transparent;
-    position: relative;
-    transform: scale(1);
-    height: auto;
-    padding-top: 0;
-    padding-bottom: 0;
+    justify-content: flex-start;
   }
 
   header nav ul {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 0;
-  }
-
-  header nav ul a {
-    margin-bottom: 0;
-  }
-
-  header nav a {
-    font-size: 1rem;
-    margin-right: 30px;
-    font-style: italic;
-  }
-
-  header nav li:last-child a {
-    margin-right: 0;
-  }
-
-  header nav .fa-instagram {
-    font-size: 1.5rem;
+    max-width: 50%;
   }
   /* Header end */
 
@@ -176,14 +241,29 @@ header nav a:hover {
 @media (min-width: 1200px) {
 
   /* Header */
-  header nav a {
-    margin-right: 60px;
+  header nav .logo_menu {
+    max-width: 180px;
   }
   /* Header end */
 
 }
 
 @media (min-width: 1400px) {
+
+  /* Header */
+  header nav ul {
+    max-width: 30%;
+  }
+
+  header nav a {
+    font-size: 1.5rem;
+  }
+
+  header nav i {
+    color: #babbbb;
+    font-size: 1.75rem;
+  }
+  /* Header end */
 
 }
 
