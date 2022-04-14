@@ -249,13 +249,13 @@
     <section class="container-fluid gallery">
       <div class="row">
 
-        <div class="col-md-5 offset-md-1">
+        <div class="col-md-5 offset-md-1 data">
           <img src="./img/galeria-izq-a.jpg" class="img-fluid" alt="gallery left a sp40">
           <p>Inspired by American muscle and European design.</p>
           <img src="./img/galeria-izq-b.jpg" class="img-fluid" alt="gallery left b sp40">
         </div>
 
-        <div class="col-md-5">
+        <div class="col-md-5 img">
           <img src="./img/galeria-der.png" class="img-fluid" alt="gallery right sp40">
         </div>
 
