@@ -267,8 +267,8 @@
     <section class="container-fluid about">
       <div class="row">
 
-        <div class="col-md-6 data">
-          <h2>history</h2>
+        <div class="col-lg-5 offset-lg-1 data">
+          <h2 class="arimo">history</h2>
           <p>
             The SP40 is created by Iconic Auto Sports, a low volume car manufacture company, founded by Francisco Orden and Arturo Arrabillaga. 
             Both are passionate about cars and wanted to create something new, a place where cars could be restored but also where people could find their dream car.
@@ -276,17 +276,17 @@
           </p>
 
           <p>
-            Mejor Artesanía - Autoclásica 2016 
+            Mejor Artesanía - Autoclásica 2016  <br>
             1931 Mercedes Benz SSK Count Trossi
           </p>
 
           <p>
-            Mejor Artesanía - Autoclásica 2017 
+            Mejor Artesanía - Autoclásica 2017  <br>
             1952 - Alfa Romeo DV C52 Fianchi Stretti
           </p> 
 
           <p>
-            Mejor Artesanía - Autoclásica 2018
+            Mejor Artesanía - Autoclásica 2018 <br>
             1934 - Ford 40 Special Speedster Boattail
           </p>
 
@@ -300,12 +300,12 @@
 
           <p>
             To learn more about the original 1934 Ford Model 40 Special Speedster
-            <a href="#" rel="noopener" target="_blank">CLICK HERE</a>
+            <a class="transition" href="#" rel="noopener" target="_blank">CLICK HERE</a>
           </p>
 
         </div>
 
-        <div class="col-md-6 img">
+        <div class="col-lg-6 img">
           <img src="./img/history-1.jpg" class="img-fluid" alt="history 1 sp40">
         </div>
 
@@ -313,12 +313,12 @@
 
       <div class="row">
 
-        <div class="col-md-6 img">
+        <div class="col-lg-6 img">
           <img src="./img/history-2.jpg" class="img-fluid" alt="history 2 sp40">
         </div>
 
-        <div class="col-md-6 data">
-          <h2>about us</h2>
+        <div class="col-lg-5 data">
+          <h2 class="arimo">about us</h2>
           
           <p>
             Iconic Auto Sports is a classic car evocation custom made company, that specializes in the body building and craftsmanship of recreations of the most famous and unique vehicles in the world.

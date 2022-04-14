@@ -143,7 +143,6 @@
 
 /* Gallery */
 .gallery {
-  margin-bottom: 60px;
   background: black;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -174,6 +173,56 @@
 }
 /* Gallery end */
 
+/* About */
+.about {
+  margin-bottom: 30px;
+  background: #e3e3e3;
+}
+
+.about .data,
+.about .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about .data {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about .data h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+.about .data p {
+  font-size: 0.9rem;
+}
+
+.about .data p:last-child {
+  margin-bottom: 0;
+}
+
+.about .data p a {
+  color: #808080;
+  text-transform: uppercase;
+}
+
+.about .data p a:hover {
+  color: #444242;
+}
+
+.about .row:last-child .data {
+  order: 0;
+}
+
+.about .row:last-child .img {
+  order: 1;
+  padding-bottom: 40px;
+}
+/* About end */
 
 
 
@@ -301,6 +350,52 @@
   }
   /* Presentacion end */
 
+  /* About */
+  .about .data,
+  .about .img {
+    padding-top: 30px;
+    padding-bottom: 0;
+    align-items: flex-start;
+  }
+
+  .about .data {
+    padding-right: 30px;
+  }
+
+  .about .data h2 {
+    margin-bottom: 30px;
+  }
+
+  .about .data p {
+    font-size: 1rem;
+  }
+
+  .about .data p:last-child {
+    margin-bottom: 30px;
+  }
+
+  .about .img {
+    padding: 0;
+  }
+
+  .about .img img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .about .row:last-child .data {
+    order: 1;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: 30px;
+    padding-bottom: 0;
+  }
+
+  .about .row:last-child .img {
+    order: 0;
+    padding-bottom: 0;
+  }
+  /* About end */
+
 }
 
 @media (min-width: 1200px) {
@@ -322,6 +417,39 @@
   }
   /* Slide Home end */
 
+  /* About */
+  .about .data {
+    padding-right: 150px;
+  }
+
+  .about .data h2 {
+    letter-spacing: 0.4rem;
+  }
+
+  .about .data p {
+    margin-bottom: 30px;
+    font-size: 1.15rem;
+  }
+
+  .about .row:last-child .data {
+    padding-left: 150px;
+    padding-right: 60px;
+  }
+
+  .about .row:last-child .data {
+    padding-left: 150px;
+    padding-right: 60px;
+  }
+
+  .about .row:last-child .data p {
+    margin-bottom: 60px;
+  }
+
+  .about .row:last-child .data p:last-child {
+    margin-bottom: 0;
+  }
+  /* About end */
+
 }
 
 @media (min-width: 1400px) {
@@ -330,6 +458,7 @@
   .slides_home {
     margin-bottom: 100px;
   }
+
   .slides_home .carousel-item {
     height: 810px;
   }
@@ -372,10 +501,21 @@
   /* Features Mobile end */
 
   /* Gallery */
+  .gallery {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .gallery .data p {
     font-size: 1.25rem;
   }
   /* Gallery end */
+
+  /* About */
+  .about {
+    margin-bottom: 100px;
+  }
+  /* About end */
 
 }
 
