@@ -32,48 +32,63 @@
   <sction class="page">
     
     <!-- Slide -->
-    <section class="container-fluid slides_home">
+    <section class="container-fluid carousel-fade slides_home">
+
       <div class="row">
+
         <div class="col-md-12 p-0">
+
           <div id="carouselHomeControls" class="carousel slide" data-bs-ride="carousel">
+
             <div class="carousel-inner">
 
               <div id="slide_1" class="carousel-item active">
-                <h1>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h1>
+                <div class="content">
+                  <h1>
+                    Inspired by American muscle<br>
+                    <span>and European design</span>
+                  </h1>
+                </div>
               </div>
 
-              <!-- <div id="slide_2" class="carousel-item">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+              <div id="slide_2" class="carousel-item">
+                <div class="content">
+                  <h2>
+                    Inspired by American muscle<br>
+                    <span>and European design</span>
+                  </h2>
+                </div>
               </div>
 
               <div id="slide_3" class="carousel-item">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+                <div class="content">
+                  <h2>
+                    Inspired by American muscle<br>
+                    <span>and European design</span>
+                  </h2>
+                </div>
               </div>
 
               <div id="slide_4" class="carousel-item">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+                <div class="content">
+                  <h2>
+                    Inspired by American muscle<br>
+                    <span>and European design</span>
+                  </h2>
+                </div>
               </div>
 
               <div id="slide_5" class="carousel-item">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
-              </div> -->
+                <div class="content">
+                  <h2>
+                    Inspired by American muscle<br>
+                    <span>and European design</span>
+                  </h2>
+                </div>
+              </div>
               
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomeControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -82,9 +97,13 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
     <!-- Slide end -->
 
