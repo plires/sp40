@@ -49,10 +49,13 @@
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
+
       <div class="modal-header">
-        <h5 class="modal-title" id="contactModalLabel">JOIN THE WAITING LIST!</h5>
+      	<img class="img-fluid logo_formulario" src="./img/logo-formulario.png" alt="logo sp40 formulario">
+      	<h5 class="modal-title" id="contactModalLabel">JOIN THE WAITING LIST!</h5>
         <i data-bs-dismiss="modal" aria-label="Close" class="btn-close fa fa-times transition"></i>
       </div>
+
       <div class="modal-body">
 
       	<div class="container-fluid">
