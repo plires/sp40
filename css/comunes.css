@@ -210,7 +210,63 @@ header.header_small .logo {
 /* Header Small end */
 
 /* Footer */
+footer {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(88,87,93,1) 100%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 
+footer p,
+footer a {
+  font-family: 'Arimo', sans-serif;
+  font-size: 0.85rem;
+  color: #cfd0d2;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer .data p {
+  margin-bottom: 0;
+}
+
+footer .data {
+  margin-bottom: 30px;
+}
+
+footer .menu .col-md-6 {
+  margin-bottom: 20px;
+}
+
+footer .menu li {
+  margin-bottom: 20px;
+}
+
+footer .rrss ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .rrss ul a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+footer .rrss ul li:last-child a {
+  margin-right: 0;
+}
+
+footer .rrss ul a i {
+  font-size: 1.5rem;
+}
+
+footer .rrss {
+  margin-top: 20px;
+}
 /* Footer end */
 
 
@@ -228,6 +284,26 @@ header.header_small .logo {
   }
   /* Header end */
 
+  /* Footer */
+  footer .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  footer .menu .col-md-6 {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .rrss {
+    margin-top: 0;
+  }
+  /* Footer end */
+
 }
 
 @media (min-width: 992px) {
@@ -242,6 +318,34 @@ header.header_small .logo {
   }
   /* Header end */
 
+  /* Footer */
+  footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  footer .content {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  footer .menu .col-md-6 {
+    align-items: flex-start;
+  }
+
+  footer .menu li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  footer .rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Footer end */
+
 }
 
 @media (min-width: 1200px) {
@@ -251,6 +355,17 @@ header.header_small .logo {
     max-width: 180px;
   }
   /* Header end */
+
+  /* Footer */
+  footer .content {
+    border-right: solid 1px #cfd0d2;
+  }
+
+  footer .content:last-child,
+  footer .content:nth-child(3) {
+    border-right: none;
+  }
+  /* Footer end */
 
 }
 

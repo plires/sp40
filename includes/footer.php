@@ -3,11 +3,11 @@
     <div class="col-md-10 offset-md-1">
       <div class="row">
         
-        <div class="col-md-3">
-          <img class="img-fluid" src="./img/auto-footer.jpg" alt="car footer sp40">
+        <div class="content col-md-6 col-lg-3 car">
+          <img class="img-fluid" src="./img/car.png" alt="car footer sp40">
         </div>
 
-        <div class="col-md-3">
+        <div class="content col-md-6 col-lg-3 data">
           <p>
             All rights reserved &copy; 2022<br>
             SP40 by Iconic Auto Sports.<br>
@@ -26,15 +26,15 @@
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="content col-md-6 col-lg-4 menu">
           <div class="row">
             <div class="col-md-6">
               <ul>
-                <li><a href="#">Presentation</a></li>
-                <li><a href="#">Concept</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a class="transition" href="#">Presentation</a></li>
+                <li><a class="transition" href="#">Concept</a></li>
+                <li><a class="transition" href="#">Features</a></li>
+                <li><a class="transition" href="#">About us</a></li>
+                <li><a class="transition" href="#">Gallery</a></li>
               </ul>
             </div>
 
@@ -44,20 +44,20 @@
           </div>
         </div>
 
-        <div class="col-md-2">
+        <div class="content col-md-6 col-lg-2 rrss">
           <ul>
             <li>
-              <a href="#" rel="noopener" target="_blank">
+              <a class="transition" href="#" rel="noopener" target="_blank">
                 <i class="fa-brands fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a href="#" rel="noopener" target="_blank">
+              <a class="transition" href="#" rel="noopener" target="_blank">
                 <i class="fa-brands fa-instagram-square"></i>
               </a>
             </li>
             <li>
-              <a href="#" rel="noopener" target="_blank">
+              <a class="transition" href="#" rel="noopener" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
