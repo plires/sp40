@@ -980,6 +980,15 @@
     height: 950px;
   }
 
+  .features_desktop .img_featured {
+    max-width: 230px;
+  }
+
+  .features_desktop .content {
+    padding: 10px;
+    max-width: 230px;
+  }
+
   .features_desktop .btn_features {
     width: 40px;
     height: 40px;
