@@ -118,17 +118,12 @@
           <div>
             <h3>We love classic cars.</h3>
             <p>
-              Everything about them, the curves, the design, the feeling of riding history, but something was missing. So we created the SP40 Restomod, a unique car that combines the best of both worlds.
-              Modern technology and the elegance of a classic.
+              Everything about them, the curves, the design, the feeling of riding history, but many times the sweet & souer sensation invades all these beautiful emotions when clogged carburators, worn contact breaker points, spark plug stucks or simply fatigued spare parts not working frustrates the dreamed road trip or ride in our classic car. So we created the SP40 Restomod, a unique car that combines the best of both worlds. Modern technology and the elegance of a classic.
             </p>
 
             <h4>How did we do this?</h4>
             <p>
-              Inspired by our award winning Ford 40 Special Speedster 
-              we designed a powerful, attractive and functional car.
-              We take the lines and design of the original model and develop 
-              it from scratch together with the best technologies in 
-              motorization, electronics, chassis and body construction.
+              Inspired by our award  winning 1934 Ford 40 Special Speedster Boattail we designed a powerful, attractive and functional car. We took the lines and the design of the original model and developed it together with the best technologies in motoration, electronics, chassis and supreme body construction 
             </p>
           </div>
 
@@ -426,38 +421,33 @@
 
         <div class="col-lg-5 offset-lg-1 data">
           <h2 class="arimo">history</h2>
+
           <p>
-            The SP40 is created by Iconic Auto Sports, a low volume car manufacture company, founded by Francisco Orden and Arturo Arrabillaga. 
-            Both are passionate about cars and wanted to create something new, a place where cars could be restored but also where people could find their dream car.
-            Combining Arturo´s skills in industrial engineering and Francisco´s marketing ideas, they won three Autoclassica´s awards:
+            The SP40 is created by Iconic Auto Sports, a low volume car manufacturer company, founded by Francisco Orden and Arturo Arrebillaga. Both are passionate about cars and wanted to create something new, a place where cars could be restored but mostly where people could find their dream and unique iconic car. Combining Arturo´s Skills in industrial engineering and Francisco´s marketing ideas, they won three Autoclasica´s awards:
           </p>
 
           <p>
-            Mejor Artesanía - Autoclásica 2016  <br>
-            1931 Mercedes Benz SSK Count Trossi
+            Best Argentinian Handcrafted Coachbuilders - Autoclásica 2016 <br>
+            1931 Mercedes Benz SSK Count Trossi Evocation
           </p>
 
           <p>
-            Mejor Artesanía - Autoclásica 2017  <br>
-            1952 - Alfa Romeo DV C52 Fianchi Stretti
-          </p> 
-
-          <p>
-            Mejor Artesanía - Autoclásica 2018 <br>
-            1934 - Ford 40 Special Speedster Boattail
+            Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2017 <br>
+            1952 Alfa Romeo DV C52 Fianchi Stretti Evocation
           </p>
 
           <p>
-            Winning the award with the Ford 40 Special Speedster, urged 
-            the desire to create their own Ford 40 Speedster Restomod.
-            In order to create this car, they had to create each individual 
-            part from scratch. So they started the journey combining a classy 
-            American muscle with European design.
+            Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2018 <br>
+            1934 Ford 40 Special Speedster Boattail Evocation 
           </p>
 
           <p>
-            To learn more about the original 1934 Ford Model 40 Special Speedster
-            <a class="transition" href="#" rel="noopener" target="_blank">CLICK HERE</a>
+            Winning this award with the Ford 40 Special Speedster Boattail, urged the desire to create their own Ford 40 Speedster Restomod. 
+            In order to build this car, they had to design and fabricate each individual part. So they started the journey with by combining a classy American muscle with European design.
+          </p>
+
+          <p>
+            To learn more about the original 1934 Ford Model 40 Special Speedster Boattail <a class="transition" href="#" rel="noopener" target="_blank">CLICK HERE</a>
           </p>
 
         </div>
@@ -476,21 +466,19 @@
 
         <div class="col-lg-5 data">
           <h2 class="arimo">about us</h2>
+
+          <p>
+            Iconic Auto Sports is a classic car evocation custom made company, that specializes in the body building and craftsmanship of recreations of the most famous and unique vehicles in the world. It also restores original cars and has its own and unique racing, classic and vintage models. In its production records, it detonates over 100 cars built through the last decades, many of them for the top classic car collectors in South America and abroad.
+          </p>
+
+          <p>
+            Iconic Auto Sports cars have been presented in some of the finest international auction houses with excellent estimates and selling results, as well as being awarded by specialized classic car juries in renowned exhibitions, the best prize for construction quality and supreme bodybuilding. But it wasn´t until the year 2016 that it was formally registered under the name of OHA Automobili and in 2020 changed its name to Iconic Auto Sports. 
+          </p>
+
+          <p>
+            The firm is currently settles in its new state of the art car boutique factory in San isidro, Buenos Aires, Argentina             
+          </p>
           
-          <p>
-            Iconic Auto Sports is a classic car evocation custom made company, that specializes in the body building and craftsmanship of recreations of the most famous and unique vehicles in the world.
-            It also restores original cars and has its own and unique racing, classic and vintage models. In its production records, it denotes over 100 cars built through the last decades, many of them for the top classic car collectors in South America and abroad.
-          </p>
-
-          <p>
-            Iconic Auto Sports cars have been presented in some of the finest international auction houses with excellent estimates and selling results, as well as being awarded by specialized classic car juries in renowned exhibitions, the best price for construction quality and supreme bodybuilding. But it wasn’t until the year 2016 that it was formerly registered under the name of Iconic Auto Sports.
-          </p>
-
-          <p>
-            The firm is currently settled in its new state of the art car factory
-            in San Isidro, Buenos Aires, Argentina.
-          </p>
-
         </div>
 
       </div>

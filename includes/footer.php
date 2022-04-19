@@ -18,10 +18,11 @@
               href="mailto:info@sp40restomod.com">info@sp40restomod.com
             </a><br>
             <a 
+              href="https://goo.gl/maps/HnY9i4uvbj9DcuTg9"
               class="transition" 
               rel="noopener" 
-              target="_blank" 
-              href="tel:393463799155">+39 346 3799155
+              target="_blank">
+              Liniers 1328, San Isidro - Buenos Aires
             </a>
           </p>
         </div>
