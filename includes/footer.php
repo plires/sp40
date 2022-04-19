@@ -30,11 +30,11 @@
           <div class="row">
             <div class="col-md-6">
               <ul>
-                <li><a class="transition" href="#">Presentation</a></li>
-                <li><a class="transition" href="#">Concept</a></li>
-                <li><a class="transition" href="#">Features</a></li>
-                <li><a class="transition" href="#">About us</a></li>
-                <li><a class="transition" href="#">Gallery</a></li>
+                <li><a class="transition" href="#presentation">Presentation</a></li>
+                <li><a class="transition btn_nav_desktop" href="#concept_desktop">Concept</a></li>
+                <li><a class="transition btn_nav_mobile" href="#concept_mobile">Concept</a></li>
+                <li><a class="transition" href="#about">About us</a></li>
+                <li><a class="transition" href="#gallery">Gallery</a></li>
               </ul>
             </div>
 
@@ -47,17 +47,17 @@
         <div class="content col-md-6 col-lg-2 rrss">
           <ul>
             <li>
-              <a class="transition" href="#" rel="noopener" target="_blank">
+              <a class="transition" href="<?= RRSS_FACEBOOK ?>" rel="noopener" target="_blank">
                 <i class="fa-brands fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a class="transition" href="#" rel="noopener" target="_blank">
+              <a class="transition" href="<?= RRSS_INSTAGRAM ?>" rel="noopener" target="_blank">
                 <i class="fa-brands fa-instagram-square"></i>
               </a>
             </li>
             <li>
-              <a class="transition" href="#" rel="noopener" target="_blank">
+              <a class="transition" href="<?= RRSS_LINKEDIN ?>" rel="noopener" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>

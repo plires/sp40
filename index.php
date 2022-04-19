@@ -109,7 +109,7 @@
     <!-- Slide end -->
 
     <!-- Presentation -->
-    <section class="container-fluid presentation">
+    <section id="presentation" class="container-fluid presentation">
       <div class="row">
 
         <div class="col-lg-5 offset-lg-1 data">
@@ -167,7 +167,7 @@
     <!-- Presentation end -->
 
     <!-- Features Mobile -->
-    <section class="container-fluid features_mobile">
+    <section id="concept_mobile" class="container-fluid features_mobile">
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div id="carouselConceptControls" class="carousel slide" data-bs-ride="carousel">
@@ -278,7 +278,7 @@
     <!-- Features Mobile end -->
 
     <!-- Features Desktop -->
-    <section class="container-fluid features_desktop">
+    <section id="concept_desktop" class="container-fluid features_desktop">
       <div class="row">
         <div class="col-md-12 p-0 img">
 
@@ -403,7 +403,7 @@
     <!-- Features Desktop end -->
 
     <!-- Gallery -->
-    <section class="container-fluid gallery">
+    <section id="gallery" class="container-fluid gallery">
       <div class="row">
 
         <div class="col-md-5 offset-md-1 data">
@@ -421,7 +421,7 @@
     <!-- Gallery end -->
 
     <!-- About Us -->
-    <section class="container-fluid about">
+    <section id="about" class="container-fluid about">
       <div class="row">
 
         <div class="col-lg-5 offset-lg-1 data">
@@ -559,9 +559,11 @@
   <!-- Footer -->
   <?php include('includes/footer.php'); ?>
   
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
   <script src="./node_modules/popover-plugin/dist/popover.min.js"></script>
+  <script src="./node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 
   <?php 

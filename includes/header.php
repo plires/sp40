@@ -24,11 +24,11 @@
       <li>
         <img class="logo_menu" src="./img/logo-menu.png" alt="logo menu sp40">
       </li>
-      <li><a class="arimo transition" href="#">Presentation</li></a>
-      <li><a class="arimo transition" href="#">Concept</li></a>
-      <li><a class="arimo transition" href="#">Features</li></a>
-      <li><a class="arimo transition" href="#">About us</li></a>
-      <li><a class="arimo transition" href="#">Gallery</li></a>
+      <li><a class="arimo transition" href="#presentation" onclick="menuToggle()">Presentation</li></a>
+      <li class="btn_nav_desktop"><a class="arimo transition" href="#concept_desktop" onclick="menuToggle()">Concept</li></a>
+      <li class="btn_nav_mobile"><a class="arimo transition" href="#concept_mobile" onclick="menuToggle()">Concept</li></a>
+      <li><a class="arimo transition" href="#about" onclick="menuToggle()">About us</li></a>
+      <li><a class="arimo transition" href="#gallery" onclick="menuToggle()">Gallery</li></a>
       <li>
         <div class="icons">
           <a class="transition" href="<?= RRSS_INSTAGRAM ?>" target="_blank" rel="noopener noreferrer">

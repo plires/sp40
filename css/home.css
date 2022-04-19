@@ -136,16 +136,13 @@
 /* Presentacion end */
 
 /* Features Desktop */
-.features_desktop {
+.features_desktop,
+.btn_nav_desktop {
   display: none;
 }
 /* Features Desktop end */
 
 /* Features Mobile */
-.features_mobile {
-  /*margin-bottom: 60px;*/
-}
-
 .features_mobile .content {
   display: flex;
   flex-direction: column;
@@ -578,6 +575,14 @@
   /* Features Desktop */
   .features_desktop {
     display: inline-block;
+  }
+
+  .btn_nav_desktop {
+    display: flex;
+  }
+
+  .btn_nav_mobile {
+    display: none;
   }
 
   .features_desktop .img {
