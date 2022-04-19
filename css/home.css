@@ -141,6 +141,73 @@
 }
 /* Features Desktop end */
 
+/* Features Mobile */
+.features_mobile {
+  /*margin-bottom: 60px;*/
+}
+
+.features_mobile .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 176px;
+  padding: 5px;
+}
+
+.features_mobile .content h3 {
+  margin-top: 0!important;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #babbbf;
+  border-bottom: solid 1px #babbbf;
+  font-size: 1.25rem;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  letter-spacing: 0.4rem;
+}
+
+.features_mobile .content .description {
+  text-align: left;
+  color: #babbbf;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.features_mobile .content .numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.features_mobile .content .numbers p {
+  color: #babbbf;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-right: solid 1px #babbbf;
+  margin-bottom: 0;
+}
+
+.features_mobile .content .numbers p:last-child {
+  border-right: none;
+}
+
+.features_mobile .content .numbers span {
+  color: #babbbf;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* Features Mobile end */
+
 /* Gallery */
 .gallery {
   background: black;
@@ -502,6 +569,135 @@
   }
   /* Presentacion end */
 
+  /* Features Mobile */
+  .features_mobile {
+    display: none;
+  }
+  /* Features Mobile end */
+
+  /* Features Desktop */
+  .features_desktop {
+    display: inline-block;
+  }
+
+  .features_desktop .img {
+    position: relative;
+    background: url('../img/features.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+
+  .features_desktop h2 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    font-weight: 400;
+  }
+
+  .features_desktop .subtitulo {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.65rem;
+  }
+
+  .features_desktop .icon {
+    max-width: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .features_desktop .btn_features {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/btn-more.png');
+    background-position: 50% 50%;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .features_desktop .img_featured {
+    max-width: 150px;
+  }
+
+  .features_desktop .content_card {
+    padding: 5px;
+  }
+
+  .features_desktop .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f6f66;
+    padding: 5px;
+    max-width: 150px;
+  }
+
+  .features_desktop .content h3 {
+    color: white;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    border-bottom: solid 1px #2b332e;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #2b332e;
+  }
+
+  .features_desktop .content p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .features_desktop .btn_engine {
+    top: calc(27% - 12px);
+    left: calc(45% - 12px);
+  }
+
+  .features_desktop .btn_transmision {
+    top: calc(67% - 12px);
+    left: calc(28% - 12px);
+  }
+
+  .features_desktop .btn_suspension {
+    top: calc(42% - 12px);
+    left: calc(15% - 12px);
+  }
+
+  .features_desktop .btn_brakes {
+    top: calc(63% - 12px);
+    left: calc(13% - 12px);
+  }
+
+  .features_desktop .btn_exhaust {
+    top: calc(65% - 12px);
+    left: calc(59% - 12px);
+  }
+
+  .features_desktop .btn_wheels {
+    top: calc(65% - 12px);
+    left: calc(75% - 12px);
+  }
+
+  .features_desktop .btn_body {
+    top: calc(36% - 12px);
+    left: calc(76% - 12px);
+  }
+  /* Features Desktop end */
+
   /* About */
   .about .data,
   .about .img {
@@ -586,6 +782,12 @@
     letter-spacing: 0.55em;
   }
   /* Slide Home end */
+
+  /* Features Desktop */
+  .features_desktop .img {
+    height: 600px;
+  }
+  /* Features Desktop end */
 
   /* About */
   .about .data {
@@ -700,9 +902,15 @@
   }
   /* Presentacion end */
 
+  /* Features Desktop */
+  .features_desktop .img {
+    height: 705px;
+  }
+  /* Features Desktop end */
+
   /* Features Mobile */
   .features_mobile {
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
   }
   /* Features Mobile end */
 
@@ -760,5 +968,51 @@
     padding-bottom: 60px;
   }
   /* Slide Home end */
+
+  /* Features Desktop */
+  .features_desktop .img {
+    height: 950px;
+  }
+
+  .features_desktop .btn_features {
+    width: 40px;
+    height: 40px;
+  }
+
+  .features_desktop .btn_engine {
+    top: calc(27% - 20px);
+    left: calc(45% - 20px);
+  }
+
+  .features_desktop .btn_transmision {
+    top: calc(67% - 20px);
+    left: calc(28% - 20px);
+  }
+
+  .features_desktop .btn_suspension {
+    top: calc(42% - 20px);
+    left: calc(15% - 20px);
+  }
+
+  .features_desktop .btn_brakes {
+    top: calc(63% - 20px);
+    left: calc(13% - 20px);
+  }
+
+  .features_desktop .btn_exhaust {
+    top: calc(65% - 20px);
+    left: calc(59% - 20px);
+  }
+
+  .features_desktop .btn_wheels {
+    top: calc(65% - 20px);
+    left: calc(75% - 20px);
+  }
+
+  .features_desktop .btn_body {
+    top: calc(36% - 20px);
+    left: calc(76% - 20px);
+  }
+  /* Features Desktop end */
 
 }

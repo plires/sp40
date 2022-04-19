@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
   <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/popover-plugin/dist/popover.min.css">
   <link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
   <link rel="stylesheet" href="css/app.css">
 </head>
@@ -30,7 +31,7 @@
 
   <!-- PAGE -->
   <sction class="page">
-    
+
     <!-- Slide -->
     <section class="container-fluid carousel-fade slides_home">
 
@@ -168,46 +169,99 @@
     <!-- Features Mobile -->
     <section class="container-fluid features_mobile">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-10 offset-md-1">
           <div id="carouselConceptControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
 
+              <!-- Engine -->
               <div class="carousel-item active">
-                <img src="./img/slide-1.jpg" class="d-block w-100" alt="slide sp40 1">
-                <h1>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h1>
+                <img src="./img/engine-featured.jpg" class="d-block w-100" alt="engine sp40">
+                <div class="content">
+                  <h3 class="arimo">engine</h3>
+                  <p class="arimo description">
+                    Ford Coyote V8 Gen3 (aluminum) 5.0L Engine
+                  </p>
+                  <div class="numbers">
+                    <p class="number_a">+460<span>horsepower</span></p>
+                    <p class="number_b">+420<span>LB-FT TORQUE</span></p>
+                  </div>
+                </div>
               </div>
+              <!-- Engine end -->
 
+              <!-- Transmision -->
               <div class="carousel-item">
-                <img src="./img/slide-2.jpg" class="d-block w-100" alt="slide sp40 2">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+                <img src="./img/transmision-featured.jpg" class="d-block w-100" alt="transmision sp40">
+                <div class="content">
+                  <h3 class="arimo">transmision</h3>
+                  <p class="arimo description">
+                    Tremec TKO 500/600
+                  </p>
+                </div>
               </div>
+              <!-- Transmision end -->
+
+              <!-- Suspension -->
               <div class="carousel-item">
-                <img src="./img/slide-3.jpg" class="d-block w-100" alt="slide sp40 3">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+                <img src="./img/suspension-featured.jpg" class="d-block w-100" alt="suspension sp40">
+                <div class="content">
+                  <h3 class="arimo">suspension</h3>
+                  <p class="arimo description">
+                    Independent rear, traction-lok differential and front independent
+                  </p>
+                </div>
               </div>
+              <!-- Suspension end -->
+
+              <!-- Brakes -->
               <div class="carousel-item">
-                <img src="./img/slide-4.jpg" class="d-block w-100" alt="slide sp40 4">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+                <img src="./img/brakes-featured.jpg" class="d-block w-100" alt="brakes sp40">
+                <div class="content">
+                  <h3 class="arimo">brakes</h3>
+                  <p class="arimo description">
+                    Tilton pedals <br>
+                    Mustang GT350R brakes. Brembo 6 piston aluminum fixed front calipers. Front rotors 15.5” cross-drilled with directional vanes. Brembo 4 piston aluminum rear calipers. Rear rotors are 14.9” cross-drilled
+                  </p>
+                </div>
               </div>
+              <!-- Brakes end -->
+
+              <!-- Exhaust -->
               <div class="carousel-item">
-                <img src="./img/slide-5.jpg" class="d-block w-100" alt="slide sp40 5">
-                <h2>
-                  Inspired by American muscle<br>
-                  <span>and European design</span>
-                </h2>
+                <img src="./img/exhaust-featured.jpg" class="d-block w-100" alt="exhaust sp40">
+                <div class="content">
+                  <h3 class="arimo">EXHAUST</h3>
+                  <p class="arimo description">
+                    Full stainless steel long tube headers, mufflers and pipes
+                  </p>
+                </div>
               </div>
+              <!-- Exhaust end -->
+
+              <!-- Wheels -->
+              <div class="carousel-item">
+                <img src="./img/wheels-featured.jpg" class="d-block w-100" alt="wheels sp40">
+                <div class="content">
+                  <h3 class="arimo">wheels</h3>
+                  <p class="arimo description">
+                    Front 235/45/20 - Rear 275/35/20
+                  </p>
+                </div>
+              </div>
+              <!-- Wheels end -->
+
+              <!-- Body -->
+              <div class="carousel-item">
+                <img src="./img/body-featured.jpg" class="d-block w-100" alt="body sp40">
+                <div class="content">
+                  <h3 class="arimo">body</h3>
+                  <p class="arimo description">
+                    Full carbon fiber body
+                  </p>
+                </div>
+              </div>
+              <!-- Body end -->
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselConceptControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -226,19 +280,122 @@
     <!-- Features Desktop -->
     <section class="container-fluid features_desktop">
       <div class="row">
-        <div class="col-md-12 p-0">
-          <img src="./img/features.jpg" class="d-block w-100" alt="features sp40">
+        <div class="col-md-12 p-0 img">
 
-          <h2>concept</h2>
-          <p>Click <img src="./img/btn-more.png" class="d-inline" alt="button more samll sp40">buttons to see details</p>
+          <h2 class="arimo">concept</h2>
+          <p class="subtitulo">Click <img src="./img/btn-more.png" class="d-inline icon" alt="button more samll sp40">buttons to see details</p>
+
+          <!-- Engine -->
+          <div data-popover-target="#engine-popover-target" class="popover-ele btn_features btn_engine"></div>
           
-          <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
-            <img src="./img/btn-more.png" class="img-fluid" alt="button more motor sp40">
-          </button>
+          <div id="engine-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/engine-featured.jpg" alt="engine featured desktop">
+              <div class="content">
+                <h3 class="arimo">engine</h3>
+                <p>
+                  Ford Coyote V8 - Gen3 (aluminum) - 5.0L Engine
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Engine end -->
 
-          <p>
-            ver como implementar popover
-          </p>
+          <!-- Transmision -->
+          <div data-popover-target="#transmision-popover-target" class="popover-ele btn_features btn_transmision"></div>
+          
+          <div id="transmision-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/transmision-featured.jpg" alt="transmision featured desktop">
+              <div class="content">
+                <h3 class="arimo">transmision</h3>
+                <p>
+                  Tremec TKO 500/600
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Transmision end -->
+
+          <!-- Suspension -->
+          <div data-popover-target="#suspension-popover-target" class="popover-ele btn_features btn_suspension"></div>
+          
+          <div id="suspension-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/suspension-featured.jpg" alt="suspension featured desktop">
+              <div class="content">
+                <h3 class="arimo">suspension</h3>
+                <p>
+                  Independent rear, traction-lok differential and front independent
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Suspension end -->
+
+          <!-- Brakes -->
+          <div data-popover-target="#brakes-popover-target" class="popover-ele btn_features btn_brakes"></div>
+          
+          <div id="brakes-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/brakes-featured.jpg" alt="brakes featured desktop">
+              <div class="content">
+                <h3 class="arimo">brakes</h3>
+                <p>
+                  Tilton pedals - Mustang GT350R brakes
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Brakes end -->
+
+          <!-- Exhaust -->
+          <div data-popover-target="#exhaust-popover-target" class="popover-ele btn_features btn_exhaust"></div>
+          
+          <div id="exhaust-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/exhaust-featured.jpg" alt="exhaust featured desktop">
+              <div class="content">
+                <h3 class="arimo">exhaust</h3>
+                <p>
+                  Full stainless steel long tube headers, mufflers and pipes 
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Exhaust end -->
+
+          <!-- Wheels -->
+          <div data-popover-target="#wheels-popover-target" class="popover-ele btn_features btn_wheels"></div>
+          
+          <div id="wheels-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/wheels-featured.jpg" alt="wheels featured desktop">
+              <div class="content">
+                <h3 class="arimo">wheels</h3>
+                <p>
+                  Front 235/45/20 - Rear 275/35/20
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Wheels end -->
+
+          <!-- Body -->
+          <div data-popover-target="#body-popover-target" class="popover-ele btn_features btn_body"></div>
+          
+          <div id="body-popover-target">
+            <div class="pop-comp-content content_card">
+              <img class="img_featured" src="./img/body-featured.jpg" alt="body featured desktop">
+              <div class="content">
+                <h3 class="arimo">body</h3>
+                <p>
+                  Full carbon fiber body
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Body end -->
 
         </div>
       </div>
@@ -404,6 +561,7 @@
   
   <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="./node_modules/aos/dist/aos.js"></script>
+  <script src="./node_modules/popover-plugin/dist/popover.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 
   <?php 
@@ -425,13 +583,13 @@
     } 
 
   ?>
-</body>
 
-<script>
-  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl)
-  })
-</script>
+  <script>
+    PopoverComponent.init({
+      ele: '.popover-ele'
+    });
+  </script>
+
+</body>
 
 </html>
