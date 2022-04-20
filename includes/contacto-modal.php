@@ -32,12 +32,6 @@
 	  $phone = '';
 	}
 
-	if (isset($_GET['city'])) {
-	  $city = $_GET['city'];
-	} else {
-	  $city = '';
-	}
-
 	if (isset($_GET['comments'])) {
 	  $comments = $_GET['comments'];
 	} else {
@@ -93,7 +87,9 @@
 		    </div>
         
         <!-- Formulario -->
-        <form id="form-contacto" action="php/validate-form.php" method="post" class="needs-validation" novalidate>
+        <form id="form-contacto" action="./php/validate-form.php" method="post" class="needs-validation" novalidate>
+
+        	<input name="origin" type="hidden" value="Contact Form">
 
 				  <div class="mb-3">
 				    <label for="name" class="form-label">Name</label>
@@ -125,7 +121,7 @@
 					</div>
 
 					<div class="text-center">
-				  	<button type="submit" class="btn btn-primary">SEND</button>
+				  	<button id="send" type="button" class="btn btn-primary">SEND</button>
 					</div>
 
 				</form>
