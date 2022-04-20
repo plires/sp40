@@ -17,8 +17,8 @@
 
   $datos = json_decode($response, true);
 
-  if($datos['success'] == 1 && $datos['score'] <= 1){
-  
+  if($datos['success'] && $datos['score'] <= 1) {
+
   	// Verificamos si hay errores en el formulario
     if (emptyInput($_POST['name'])){
       $errors['error_name']='Please enter your name.';
@@ -68,6 +68,7 @@
     	exit;
 
     }
+    
   } else {
     
     exit('Error submitting the form, please try again');
