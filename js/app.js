@@ -43,6 +43,8 @@ window.addEventListener('scroll', function() {
 
 });
 
+AOS.init();
+
 $('#send').click(function() { // validar formulario
 
   var errorsInFieldsFront = false

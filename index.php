@@ -109,7 +109,7 @@
     <!-- Slide end -->
 
     <!-- Presentation -->
-    <section id="presentation" class="container-fluid presentation">
+    <section data-aos="fade-up" id="presentation" class="container-fluid presentation">
       <div class="row">
 
         <div class="col-lg-5 offset-lg-1 data">
@@ -162,7 +162,7 @@
     <!-- Presentation end -->
 
     <!-- Features Mobile -->
-    <section id="concept_mobile" class="container-fluid features_mobile">
+    <section data-aos="fade-up" id="concept_mobile" class="container-fluid features_mobile">
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div id="carouselConceptControls" class="carousel slide" data-bs-ride="carousel">
@@ -273,7 +273,7 @@
     <!-- Features Mobile end -->
 
     <!-- Features Desktop -->
-    <section id="concept_desktop" class="container-fluid features_desktop">
+    <section data-aos="fade-up" id="concept_desktop" class="container-fluid features_desktop">
       <div class="row">
         <div class="col-md-12 p-0 img">
 
@@ -398,7 +398,7 @@
     <!-- Features Desktop end -->
 
     <!-- Gallery -->
-    <section id="gallery" class="container-fluid gallery">
+    <section data-aos="fade-up" id="gallery" class="container-fluid gallery">
       <div class="row">
 
         <div class="col-md-5 offset-md-1 data">
@@ -416,7 +416,7 @@
     <!-- Gallery end -->
 
     <!-- About Us -->
-    <section id="about" class="container-fluid about">
+    <section data-aos="fade-up" id="about" class="container-fluid about">
       <div class="row">
 
         <div class="col-lg-5 offset-lg-1 data">
@@ -486,7 +486,7 @@
     <!-- About Us end -->
 
     <!-- Team -->
-    <section class="container-fluid team">
+    <section data-aos="fade-up" class="container-fluid team">
       <div class="row">
 
         <div class="col-md-10 offset-md-1">
@@ -524,7 +524,7 @@
     <!-- Team end -->
 
     <!-- Lauch -->
-    <section class="container-fluid lauch">
+    <section data-aos="fade-up" class="container-fluid lauch">
       <div class="row">
 
         <div class="col-md-12 content">
