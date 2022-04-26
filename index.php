@@ -447,7 +447,7 @@
           </p>
 
           <p>
-            To learn more about the original 1934 Ford Model 40 Special Speedster Boattail <a class="transition" href="#" rel="noopener" target="_blank">CLICK HERE</a>
+            To learn more about the original 1934 Ford Model 40 Special Speedster Boattail <a class="transition" href="https://www.motortrend.com/vehicle-genres/12q3-1934-ford-model-40-special-speedster/" rel="noopener" target="_blank">CLICK HERE</a>
           </p>
 
         </div>
