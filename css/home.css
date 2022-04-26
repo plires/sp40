@@ -171,6 +171,7 @@
   font-size: 0.85rem;
   width: 80%;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .features_mobile .content .numbers {
@@ -178,6 +179,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  margin-top: 5px;
 }
 
 .features_mobile .content .numbers p {
@@ -210,6 +212,8 @@
   background: black;
   padding-top: 40px;
   padding-bottom: 40px;
+  position: relative;
+  z-index: -1;
 }
 
 .gallery .data,
@@ -330,6 +334,7 @@
 .team .content_team img {
   border-radius: 50%;
   margin-bottom: 25px;
+  max-width: 30%;
 }
 
 .team .content_team h3 {
@@ -499,6 +504,10 @@
     justify-content: flex-start;
   }
 
+  .team .content_team img {
+    max-width: 100%;
+  }
+
   .team .content_team h3 {
     font-size: 1.25rem;
   }
@@ -636,7 +645,7 @@
   }
 
   .features_desktop .content_card {
-    padding: 5px;
+    padding: 1px;
   }
 
   .features_desktop .content {
@@ -665,6 +674,7 @@
     margin-bottom: 0;
     color: white;
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .features_desktop .btn_engine {
@@ -749,6 +759,12 @@
   }
   /* About end */
 
+  /* Team */
+  .team .content_team img {
+    max-width: 80%;
+  }
+  /* Team end */
+
   /* Launch */
   .lauch {
     padding-top: 120px;
@@ -796,7 +812,7 @@
 
   /* About */
   .about .data {
-    padding-right: 150px;
+    padding-right: 100px;
   }
 
   .about .data h2 {
@@ -814,7 +830,7 @@
   }
 
   .about .row:last-child .data {
-    padding-left: 150px;
+    padding-left: 100px;
     padding-right: 60px;
     padding-bottom: 20px;
   }
@@ -829,10 +845,6 @@
   /* About end */
 
   /* Team */
-  .team h2 {
-    font-size: 2.5rem;
-  }
-
   .team h2:before,
   .team h2:after {
     width: 30%;
@@ -914,12 +926,6 @@
   }
   /* Features Desktop end */
 
-  /* Features Mobile */
-  .features_mobile {
-    /*margin-bottom: 100px;*/
-  }
-  /* Features Mobile end */
-
   /* Gallery */
   .gallery {
     padding-top: 100px;
@@ -940,6 +946,10 @@
   /* Team */
   .team {
     margin-bottom: 100px;
+  }
+
+  .team .content_team img {
+    max-width: 60%;
   }
 
   .team h2:before,

@@ -186,9 +186,9 @@
 
               <!-- Transmision -->
               <div class="carousel-item">
-                <img src="./img/transmision-featured.jpg" class="d-block w-100" alt="transmision sp40">
+                <img src="./img/transmision-featured.jpg" class="d-block w-100" alt="Transmission sp40">
                 <div class="content">
-                  <h3 class="arimo">transmision</h3>
+                  <h3 class="arimo">Transmission</h3>
                   <p class="arimo description">
                     Tremec TKO 500/600
                   </p>
@@ -427,17 +427,17 @@
           </p>
 
           <p>
-            Best Argentinian Handcrafted Coachbuilders - Autoclásica 2016 <br>
+            <strong>Best Argentinian Handcrafted Coachbuilders - Autoclásica 2016</strong><br>
             1931 Mercedes Benz SSK Count Trossi Evocation
           </p>
 
           <p>
-            Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2017 <br>
+            <strong>Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2017</strong><br>
             1952 Alfa Romeo DV C52 Fianchi Stretti Evocation
           </p>
 
           <p>
-            Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2018 <br>
+            <strong>Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2018</strong><br>
             1934 Ford 40 Special Speedster Boattail Evocation 
           </p>
 
