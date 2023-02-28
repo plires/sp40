@@ -503,9 +503,17 @@
           <!-- Footer : BEGIN -->
           <tr align="center" style="background-color: #FFFFFF;">
               <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
-                
+
+                <a target="_blank" rel="noopener noreferrer" href="{facebook}">
+                  <img src="https://sp40restomod.com/img/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="facebook" />
+                </a>
+
                 <a target="_blank" rel="noopener noreferrer" href="{instagram}">
                   <img src="https://sp40restomod.com/img/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="instagram" />
+                </a>
+
+                <a target="_blank" rel="noopener noreferrer" href="{linkedin}">
+                  <img src="https://sp40restomod.com/img/linkedin.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="linkedin" />
                 </a>
 
               </td>
