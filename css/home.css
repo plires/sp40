@@ -377,7 +377,6 @@
   text-transform: uppercase;
   margin-bottom: 30px;
   font-weight: 400;
-  letter-spacing: 0.4rem;
 }
 
 .lauch .content button {
@@ -432,7 +431,7 @@
 
   .lauch .content h2 {
     margin-bottom: 60px;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.2rem;
   }
   /* Launch end */
 
@@ -523,7 +522,7 @@
   }
 
   .lauch .content h2 {
-    letter-spacing: 0.9rem;
+    letter-spacing: 0.43rem;
   }
 
   .lauch .content button {
@@ -778,7 +777,7 @@
 
   .lauch .content h2 {
     font-size: 1.25rem;
-    letter-spacing: 1.6rem;
+    letter-spacing: 0.8rem;
     margin-bottom: 100px;
   }
   /* Launch end */
@@ -866,7 +865,7 @@
 
   .lauch .content h2 {
     font-size: 1.5rem;
-    letter-spacing: 2.3rem;
+    letter-spacing: 1.1rem;
     margin-bottom: 150px;
   }
 
@@ -966,7 +965,7 @@
 
   .lauch .content h2 {
     font-size: 2.5rem;
-    letter-spacing: 2.3rem;
+    letter-spacing: 0.9rem;
   }
 
   .lauch .content button {
