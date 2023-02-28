@@ -6,10 +6,7 @@
     <img class="logo transition" src="./img/logo-small-sp40.png" alt="logo small sp40">
   </a>
 
-  <div class="mune_rrss">
-    <a class="transition" href="<?= RRSS_INSTAGRAM ?>" target="_blank" rel="noopener noreferrer">
-      <i class="transition fab fa-instagram"></i>
-    </a>
+  <div class="menu_rrss">
     <a 
       href="#" 
       class="transition mail" 
@@ -31,8 +28,14 @@
       <li><a class="arimo transition" href="#gallery" onclick="menuToggle()">Gallery</li></a>
       <li>
         <div class="icons">
+          <a class="transition" href="<?= RRSS_FACEBOOK ?>" target="_blank" rel="noopener noreferrer">
+            <i class="transition fa-brands fa-facebook"></i>
+          </a>
           <a class="transition" href="<?= RRSS_INSTAGRAM ?>" target="_blank" rel="noopener noreferrer">
             <i class="transition fa-brands fa-instagram"></i>
+          </a>
+          <a class="transition" href="<?= RRSS_LINKEDIN ?>" target="_blank" rel="noopener noreferrer">
+            <i class="transition fa-brands fa-linkedin"></i>
           </a>
           <a 
             class="transition" 
