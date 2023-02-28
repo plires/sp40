@@ -443,7 +443,7 @@
 
           <p>
             Winning this award with the Ford 40 Special Speedster Boattail, urged the desire to create their own Ford 40 Speedster Restomod. 
-            In order to build this car, they had to design and fabricate each individual part. So they started the journey with by combining a classy American muscle with European design.
+            In order to build this car, they had to design and fabricate each individual part. So they started the journey by combining a classy American muscle with European design.
           </p>
 
           <p>
