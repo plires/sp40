@@ -112,6 +112,13 @@ use PHPMailer\PHPMailer\Exception;
 
         }
 
+        // Si el mail se envia a nuestro cliente y existen casillas extra (copia cc) a las que tambien deben llegar estos correos...
+        if ( $addAddressName === NAME_CLIENT && count(EMAIL_CC) > 0 ) {
+          foreach ( EMAIL_CC as $email ) {
+            $mail->addCC($email); // las sumamos
+          }
+        }
+
         //Establecer desde donde será enviado el correo electronico
         $mail->setFrom($setFromEmail, $setFromName);
         //Establecer una direccion de correo electronico alternativa para responder
