@@ -62,6 +62,11 @@
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
+            <li>
+              <a class="transition" href="<?= RRSS_YOUTUBE ?>" rel="noopener" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
           </ul>
         </div>
 

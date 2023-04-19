@@ -516,6 +516,10 @@
                   <img src="https://sp40restomod.com/img/linkedin.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="linkedin" />
                 </a>
 
+                <a target="_blank" rel="noopener noreferrer" href="{youtube}">
+                  <img src="https://sp40restomod.com/img/youtube.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 32px; height: auto;" border="0" alt="youtube" />
+                </a>
+
               </td>
           </tr>
           <!-- Footer : END -->

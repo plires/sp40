@@ -37,6 +37,9 @@
           <a class="transition" href="<?= RRSS_LINKEDIN ?>" target="_blank" rel="noopener noreferrer">
             <i class="transition fa-brands fa-linkedin"></i>
           </a>
+          <a class="transition" href="<?= RRSS_YOUTUBE ?>" target="_blank" rel="noopener noreferrer">
+            <i class="transition fa-brands fa-youtube"></i>
+          </a>
           <a 
             class="transition" 
             href="#" 
