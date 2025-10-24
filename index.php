@@ -1,9 +1,10 @@
-<?php require ('includes/config.inc.php'); ?>
+<?php require_once __DIR__ . '/includes/env-loader.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The SP40 is created by ICONIC Auto Sports, a Miami based low volume car.">
@@ -16,11 +17,12 @@
   <link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
   <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./node_modules/popover-plugin/dist/popover.min.css">
-  <link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
+  <link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css" />
   <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
-  
+
   <?php $current = 'index'; ?>
 
   <!-- Modal -->
@@ -87,7 +89,7 @@
                   </h2>
                 </div>
               </div>
-              
+
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomeControls" data-bs-slide="prev">
@@ -114,7 +116,7 @@
 
         <div class="col-lg-5 offset-lg-1 data">
           <img class="img-fluid logo" src="./img/presentation-logo.jpg" alt="logo concept sp40">
-          
+
           <div>
             <h3>We love classic cars.</h3>
             <p>
@@ -123,7 +125,7 @@
 
             <h4>How did we do this?</h4>
             <p>
-              Inspired by our award  winning 1934 Ford 40 Special Speedster Boattail we designed a powerful, attractive and functional car. We took the lines and the design of the original model and developed it together with the best technologies in motoration, electronics, chassis and supreme body construction 
+              Inspired by our award winning 1934 Ford 40 Special Speedster Boattail we designed a powerful, attractive and functional car. We took the lines and the design of the original model and developed it together with the best technologies in motoration, electronics, chassis and supreme body construction
             </p>
           </div>
 
@@ -156,7 +158,7 @@
         <div class="col-lg-6 img">
           <img src="./img/presentation.jpg" class="img-fluid" alt="presentation sp40">
         </div>
-          
+
       </div>
     </section>
     <!-- Presentation end -->
@@ -282,7 +284,7 @@
 
           <!-- Engine -->
           <div data-popover-target="#engine-popover-target" class="popover-ele btn_features btn_engine"></div>
-          
+
           <div id="engine-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/engine-featured.jpg" alt="engine featured desktop">
@@ -298,7 +300,7 @@
 
           <!-- Transmision -->
           <div data-popover-target="#transmision-popover-target" class="popover-ele btn_features btn_transmision"></div>
-          
+
           <div id="transmision-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/transmision-featured.jpg" alt="transmision featured desktop">
@@ -314,7 +316,7 @@
 
           <!-- Suspension -->
           <div data-popover-target="#suspension-popover-target" class="popover-ele btn_features btn_suspension"></div>
-          
+
           <div id="suspension-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/suspension-featured.jpg" alt="suspension featured desktop">
@@ -330,7 +332,7 @@
 
           <!-- Brakes -->
           <div data-popover-target="#brakes-popover-target" class="popover-ele btn_features btn_brakes"></div>
-          
+
           <div id="brakes-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/brakes-featured.jpg" alt="brakes featured desktop">
@@ -346,14 +348,14 @@
 
           <!-- Exhaust -->
           <div data-popover-target="#exhaust-popover-target" class="popover-ele btn_features btn_exhaust"></div>
-          
+
           <div id="exhaust-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/exhaust-featured.jpg" alt="exhaust featured desktop">
               <div class="content">
                 <h3 class="arimo">exhaust</h3>
                 <p>
-                  Full stainless steel long tube headers, mufflers and pipes 
+                  Full stainless steel long tube headers, mufflers and pipes
                 </p>
               </div>
             </div>
@@ -362,7 +364,7 @@
 
           <!-- Wheels -->
           <div data-popover-target="#wheels-popover-target" class="popover-ele btn_features btn_wheels"></div>
-          
+
           <div id="wheels-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/wheels-featured.jpg" alt="wheels featured desktop">
@@ -378,7 +380,7 @@
 
           <!-- Body -->
           <div data-popover-target="#body-popover-target" class="popover-ele btn_features btn_body"></div>
-          
+
           <div id="body-popover-target">
             <div class="pop-comp-content content_card">
               <img class="img_featured" src="./img/body-featured.jpg" alt="body featured desktop">
@@ -432,17 +434,17 @@
           </p>
 
           <p>
-            <strong>Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2017</strong><br>
+            <strong>Best Argentinian Handcrafted Coachbuilders - Autoclásica 2017</strong><br>
             1952 Alfa Romeo DV C52 Fianchi Stretti Evocation
           </p>
 
           <p>
-            <strong>Best Argentinian Handcrafted Coachbuilders  - Autoclásica 2018</strong><br>
-            1934 Ford 40 Special Speedster Boattail Evocation 
+            <strong>Best Argentinian Handcrafted Coachbuilders - Autoclásica 2018</strong><br>
+            1934 Ford 40 Special Speedster Boattail Evocation
           </p>
 
           <p>
-            Winning this award with the Ford 40 Special Speedster Boattail, urged the desire to create their own Ford 40 Speedster Restomod. 
+            Winning this award with the Ford 40 Special Speedster Boattail, urged the desire to create their own Ford 40 Speedster Restomod.
             In order to build this car, they had to design and fabricate each individual part. So they started the journey by combining a classy American muscle with European design.
           </p>
 
@@ -472,13 +474,13 @@
           </p>
 
           <p>
-            Iconic Auto Sports cars have been presented in some of the finest international auction houses with excellent estimates and selling results, as well as being awarded by specialized classic car juries in renowned exhibitions, the best prize for construction quality and supreme bodybuilding. But it wasn´t until the year 2016 that it was formally registered under the name of OHA Automobili and in 2020 changed its name to Iconic Auto Sports. 
+            Iconic Auto Sports cars have been presented in some of the finest international auction houses with excellent estimates and selling results, as well as being awarded by specialized classic car juries in renowned exhibitions, the best prize for construction quality and supreme bodybuilding. But it wasn´t until the year 2016 that it was formally registered under the name of OHA Automobili and in 2020 changed its name to Iconic Auto Sports.
           </p>
 
           <p>
-            The firm is currently settles in its new state of the art car boutique factory in San isidro, Buenos Aires, Argentina             
+            The firm is currently settles in its new state of the art car boutique factory in San isidro, Buenos Aires, Argentina
           </p>
-          
+
         </div>
 
       </div>
@@ -517,7 +519,7 @@
           </div>
         </div>
 
-        </div>
+      </div>
 
       </div>
     </section>
@@ -530,9 +532,9 @@
         <div class="col-md-12 content">
           <img src="./img/logo-sp40-large.png" class="img-fluid" alt="logo sp40 large">
           <h2 class="arimo">LAUNCHING JANUARY 2025</h2>
-          <button 
-            data-bs-toggle="modal" 
-            data-bs-target="#contactModal" 
+          <button
+            data-bs-toggle="modal"
+            data-bs-target="#contactModal"
             class="btn btn-primary arimo transition">JOIN THE WAITING LIST
           </button>
         </div>
@@ -546,7 +548,7 @@
 
   <!-- Footer -->
   <?php include('includes/footer.php'); ?>
-  
+
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js?render=<?= RECAPTCHA_KEY_SITE ?>"></script>
@@ -555,23 +557,21 @@
   <script src="./node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 
-  <?php 
+  <?php
 
-    if (isset($_GET['errors']) || isset($_GET['msg_contacto'])) {
+  if (isset($_GET['errors']) || isset($_GET['msg_contacto'])) {
 
-      ?>
-      <script>
+  ?>
+    <script>
+      var modal = new bootstrap.Modal(document.getElementById('contactModal'), {
+        keyboard: false
+      })
 
-        var modal = new bootstrap.Modal(document.getElementById('contactModal'), {
-          keyboard: false
-        })
+      modal.show()
+    </script>
+  <?php
 
-        modal.show()
-        
-      </script>
-      <?php 
-
-    } 
+  }
 
   ?>
 

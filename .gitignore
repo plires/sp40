@@ -7,6 +7,7 @@
 /includes/config.inc.php
 npm-debug.log
 yarn-error.log
+.env
 
 #text editors
 *.esproj
