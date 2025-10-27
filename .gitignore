@@ -79,3 +79,7 @@ $RECYCLE.BIN/
 
 # Shortcuts
 *.lnk
+
+# SPAM logs
+/spam_logs/*
+!spam_logs/.htaccess

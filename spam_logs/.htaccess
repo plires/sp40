@@ -1,0 +1,5 @@
+# Denegar acceso directo a los logs
+<Files "*">
+    Order Allow,Deny
+    Deny from all
+</Files>

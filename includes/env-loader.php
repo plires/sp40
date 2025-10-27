@@ -42,3 +42,14 @@ define('URI', $_SERVER['REQUEST_URI']);
 define('EMAIL_BCC', '');
 define('EMAIL_SUBJECT', 'Gracias por tu contacto');
 define('EMAIL_ENCODING', 'quoted printable');
+
+// Anti-SPAM Configuration
+define('SPAM_MIN_FORM_TIME', (int)($_ENV['SPAM_MIN_FORM_TIME'] ?? 3));
+define('SPAM_MAX_SUBMISSIONS_PER_HOUR', (int)($_ENV['SPAM_MAX_SUBMISSIONS_PER_HOUR'] ?? 3));
+define('SPAM_MAX_SUBMISSIONS_PER_DAY', (int)($_ENV['SPAM_MAX_SUBMISSIONS_PER_DAY'] ?? 10));
+define('SPAM_RECAPTCHA_MIN_SCORE', (float)($_ENV['SPAM_RECAPTCHA_MIN_SCORE'] ?? 0.5));
+define('SPAM_BLOCKED_WORDS', explode(',', $_ENV['SPAM_BLOCKED_WORDS'] ?? ''));
+define('SPAM_LOG_DIR', __DIR__ . '/../' . ($_ENV['SPAM_LOG_DIR'] ?? 'spam_logs'));
+
+// Admin Dashboard Protection
+define('KEY_ADMIN_SPAM_DASHBOARD', $_ENV['KEY_ADMIN_SPAM_DASHBOARD'] ?? '');
