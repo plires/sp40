@@ -2,25 +2,25 @@
   <div class="row">
     <div class="col-md-10 offset-md-1">
       <div class="row">
-        
+
         <div class="content col-md-6 col-lg-3 car">
           <img class="img-fluid" src="./img/car.png" alt="car footer sp40">
         </div>
 
         <div class="content col-md-6 col-lg-3 data">
           <p>
-            All rights reserved &copy; 2022<br>
+            All rights reserved &copy; <?= date('Y') ?><br>
             SP40 by Iconic Auto Sports.<br>
-            <a 
-              class="transition" 
-              rel="noopener" 
-              target="_blank" 
+            <a
+              class="transition"
+              rel="noopener"
+              target="_blank"
               href="mailto:info@sp40restomod.com">info@sp40restomod.com
             </a><br>
-            <a 
+            <a
               href="https://goo.gl/maps/HnY9i4uvbj9DcuTg9"
-              class="transition" 
-              rel="noopener" 
+              class="transition"
+              rel="noopener"
               target="_blank">
               Liniers 1328, San Isidro - Buenos Aires
             </a>
