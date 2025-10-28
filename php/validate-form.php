@@ -153,8 +153,9 @@ if (!isset($errors)) {
   $sendClient = $app->sendContact($_POST);
 
   if ($sendClient) {
-    // Registrar el envío exitoso
-    $antiSpam->logSubmission($userIP, $email, $userAgent);
+    // Registrar el envío exitoso CON el score de reCAPTCHA
+    $recaptchaScore = isset($datos['score']) ? $datos['score'] : null;
+    $antiSpam->logSubmission($userIP, $email, $userAgent, $recaptchaScore);
 
     $msg_contacto = 'Message received. We will answer you shortly. Thanks a lot!';
     $url = explode("?", $_SERVER['HTTP_REFERER']);

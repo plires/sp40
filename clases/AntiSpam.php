@@ -143,7 +143,7 @@ class AntiSpam
   /**
    * Registra un envío exitoso
    */
-  public function logSubmission($ip, $email, $userAgent)
+  public function logSubmission($ip, $email, $userAgent, $recaptchaScore = null)
   {
     $submissions = $this->readJSON($this->submissionsFile);
 
@@ -153,7 +153,8 @@ class AntiSpam
       'email' => $email,
       'timestamp' => time(),
       'datetime' => date('Y-m-d H:i:s'),
-      'user_agent' => substr($userAgent, 0, 200)
+      'user_agent' => substr($userAgent, 0, 200),
+      'recaptcha_score' => $recaptchaScore  // NUEVO: guardar score
     ];
 
     // Mantener solo los últimos 1000 registros

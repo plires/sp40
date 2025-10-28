@@ -277,6 +277,70 @@ usort($spamAttempts, fn($a, $b) => $b['timestamp'] - $a['timestamp']);
       <?php endif; ?>
     </div>
 
+    <!-- Score Distribution -->
+    <?php if (!empty($submissions)): ?>
+      <div class="section">
+        <h2>📊 reCAPTCHA Score Distribution (Valid Submissions)</h2>
+        <?php
+        $scoreRanges = [
+          'excellent' => ['min' => 0.9, 'max' => 1.0, 'count' => 0, 'label' => '0.9 - 1.0 (Excellent)', 'class' => 'success'],
+          'good' => ['min' => 0.7, 'max' => 0.9, 'count' => 0, 'label' => '0.7 - 0.9 (Good)', 'class' => 'success'],
+          'fair' => ['min' => 0.5, 'max' => 0.7, 'count' => 0, 'label' => '0.5 - 0.7 (Fair)', 'class' => 'warning'],
+          'suspicious' => ['min' => 0.3, 'max' => 0.5, 'count' => 0, 'label' => '0.3 - 0.5 (Suspicious)', 'class' => 'danger'],
+          'bot' => ['min' => 0.0, 'max' => 0.3, 'count' => 0, 'label' => '0.0 - 0.3 (Bot)', 'class' => 'danger'],
+        ];
+
+        foreach ($submissions as $sub) {
+          if (isset($sub['recaptcha_score'])) {
+            $score = $sub['recaptcha_score'];
+            foreach ($scoreRanges as $key => $range) {
+              if ($score >= $range['min'] && $score <= $range['max']) {
+                $scoreRanges[$key]['count']++;
+                break;
+              }
+            }
+          }
+        }
+        ?>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Score Range</th>
+              <th>Count</th>
+              <th>Percentage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php
+            $totalWithScore = array_sum(array_column($scoreRanges, 'count'));
+            foreach ($scoreRanges as $range):
+              if ($range['count'] > 0):
+                $percentage = $totalWithScore > 0 ? round(($range['count'] / $totalWithScore) * 100, 1) : 0;
+            ?>
+                <tr>
+                  <td><span class="badge badge-<?= $range['class'] ?>"><?= $range['label'] ?></span></td>
+                  <td><strong><?= $range['count'] ?></strong></td>
+                  <td><?= $percentage ?>%</td>
+                </tr>
+            <?php
+              endif;
+            endforeach;
+            ?>
+          </tbody>
+        </table>
+
+        <p style="margin-top: 15px; color: #666; font-size: 0.9rem;">
+          <strong>Recommendation:</strong>
+          <?php if ($scoreRanges['fair']['count'] > 0 || $scoreRanges['suspicious']['count'] > 0): ?>
+            ⚠️ Consider increasing SPAM_RECAPTCHA_MIN_SCORE to 0.7 or higher
+          <?php else: ?>
+            ✅ Current threshold (<?= SPAM_RECAPTCHA_MIN_SCORE ?>) appears adequate
+          <?php endif; ?>
+        </p>
+      </div>
+    <?php endif; ?>
+
     <!-- Valid Submissions -->
     <div class="section">
       <h2>✅ Valid Submissions (Last 20)</h2>
@@ -287,8 +351,7 @@ usort($spamAttempts, fn($a, $b) => $b['timestamp'] - $a['timestamp']);
               <th>Time</th>
               <th>IP</th>
               <th>Email</th>
-              <th>Reason</th>
-              <th>Details</th>
+              <th>reCAPTCHA Score</th> <!-- NUEVA COLUMNA -->
             </tr>
           </thead>
           <tbody>
@@ -297,6 +360,21 @@ usort($spamAttempts, fn($a, $b) => $b['timestamp'] - $a['timestamp']);
                 <td class="timestamp"><?= htmlspecialchars($sub['datetime']) ?></td>
                 <td><code class="ip"><?= htmlspecialchars($sub['ip']) ?></code></td>
                 <td><?= htmlspecialchars($sub['email']) ?></td>
+                <td>
+                  <?php if (isset($sub['recaptcha_score'])): ?>
+                    <?php
+                    $score = $sub['recaptcha_score'];
+                    $badgeClass = 'badge-success';
+                    if ($score < 0.5) $badgeClass = 'badge-danger';
+                    elseif ($score < 0.7) $badgeClass = 'badge-warning';
+                    ?>
+                    <span class="badge <?= $badgeClass ?>">
+                      <?= number_format($score, 2) ?>
+                    </span>
+                  <?php else: ?>
+                    <span class="badge badge-info">N/A</span>
+                  <?php endif; ?>
+                </td>
               </tr>
             <?php endforeach; ?>
           </tbody>
