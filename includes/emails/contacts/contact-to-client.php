@@ -423,7 +423,7 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://sp40restomod.com/img/header-email.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://sp40restomod.com/img/header-email-sp.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
