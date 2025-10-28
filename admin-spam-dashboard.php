@@ -253,6 +253,7 @@ usort($spamAttempts, fn($a, $b) => $b['timestamp'] - $a['timestamp']);
               <th>IP</th>
               <th>Email</th>
               <th>Reason</th>
+              <th>Details</th>
             </tr>
           </thead>
           <tbody>
@@ -262,6 +263,11 @@ usort($spamAttempts, fn($a, $b) => $b['timestamp'] - $a['timestamp']);
                 <td><code class="ip"><?= htmlspecialchars($attempt['ip']) ?></code></td>
                 <td><?= htmlspecialchars($attempt['email']) ?></td>
                 <td><span class="badge badge-danger"><?= htmlspecialchars($attempt['reason']) ?></span></td>
+                <td>
+                  <?php if (isset($attempt['data']['score'])): ?>
+                    <span class="badge badge-warning">Score: <?= htmlspecialchars($attempt['data']['score']) ?></span>
+                  <?php endif; ?>
+                </td>
               </tr>
             <?php endforeach; ?>
           </tbody>
@@ -281,6 +287,8 @@ usort($spamAttempts, fn($a, $b) => $b['timestamp'] - $a['timestamp']);
               <th>Time</th>
               <th>IP</th>
               <th>Email</th>
+              <th>Reason</th>
+              <th>Details</th>
             </tr>
           </thead>
           <tbody>

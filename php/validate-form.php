@@ -60,16 +60,18 @@ if (empty($token)) {
 
   $datos = json_decode($response, true);
 
-  if (!$datos['success'] || ($datos['score'] ?? 0) < SPAM_RECAPTCHA_MIN_SCORE) {
+  $score = $datos['score'] ?? 0;
+  error_log("reCAPTCHA Score: $score | IP: $userIP | Email: " . ($_POST['email'] ?? 'N/A'));
+
+  if (!$datos['success'] || $score < SPAM_RECAPTCHA_MIN_SCORE) {
     $errors['error_recaptcha'] = 'Security verification failed. Please try again.';
-    $score = $datos['score'] ?? 'N/A';
     $antiSpam->logSpamAttempt($userIP, $_POST['email'] ?? '', "reCAPTCHA failed (score: $score)", [
       'score' => $score,
       'success' => $datos['success'] ?? false
     ]);
 
     // Bloquear si el score es muy bajo
-    if (($datos['score'] ?? 0) < 0.3) {
+    if (($datos['score'] ?? 0) < 0.4) {
       $antiSpam->blockIP($userIP, 'Very low reCAPTCHA score', 12);
     }
   }
